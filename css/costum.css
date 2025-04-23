@@ -1,0 +1,37 @@
+/* Navbar Customization */
+.navbar-dark .navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Sidebar customization */
+.sb-sidenav .nav-link {
+    color: #ccc;
+    transition: all 0.2s ease-in-out;
+}
+
+.sb-sidenav .nav-link:hover {
+    background-color: #444;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.sb-sidenav .nav-link .sb-nav-link-icon {
+    color: #0d6efd;
+}
+
+/* Animasi Fade-In untuk konten utama */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Footer Customization */
+footer {
+    background-color: #212529;
+    color: #ccc;
+    font-size: 0.875rem;
+}
